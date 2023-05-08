@@ -12,7 +12,8 @@ public class BinarySearch {
             int midPosition = (lowPosition + highPosition) / 2;
 
             if (intArray[midPosition] < target) {
-                return recursiveBinarySearch(intArray, )
+                return recursiveBinarySearch(intArray, );
+
                 /* ------ COMPLETE ME! ------ */
                 /* one missing line of code, should return the value from a recursive call:
                    if the value at the midPosition of intArray is LESS than target,
